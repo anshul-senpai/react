@@ -1,4 +1,43 @@
-h1 {
-  color: red;
+.header {
+  border: 1px solid #000;
+  justify-content: space-between;
+  padding: 10px;
+  display: flex;
+}
+
+.logo {
+  width: 100px;
+}
+
+.navbar {
+  flex-wrap: wrap;
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  padding: 10px;
+}
+
+.card {
+  border: 1px solid #000;
+  width: 250px;
+  margin: 10px;
+}
+
+.foodImage {
+  width: 100%;
+  height: 250px;
+}
+
+.card-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+}
+
+.card-container :hover {
+  cursor: pointer;
+  transform: translateY(-5px);
 }
 /*# sourceMappingURL=index.3a01df49.css.map */
